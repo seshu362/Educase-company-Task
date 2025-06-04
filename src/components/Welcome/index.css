@@ -1,0 +1,63 @@
+.welcome-container {
+  height: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 40px 20px;
+  justify-content: flex-end;
+}
+
+.welcome-content {
+  margin-bottom: 40px;  /* Much smaller gap between content and buttons */
+}
+
+.welcome-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 16px;
+  letter-spacing: -0.3px;
+}
+
+.welcome-description {
+  font-size: 18px;
+  color: #6C6C6C;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.welcome-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.btn {
+  width: 100%;
+  height: 56px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.2px;
+}
+
+.btn-primary {
+  background-color: #6C25FF;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #5a1de8;
+}
+
+.btn-secondary {
+  background-color: #C9BDFF;
+  color: #1D2226;
+}
+
+.btn-secondary:hover {
+  background-color: #bfb1ff;
+}
