@@ -26,7 +26,7 @@ A pixel-perfect mobile authentication flow application built with React JS.
 
 ```bash
 # Clone repository
-git clone https://github.com/[your-username]/popx-app.git
+git clone https://github.com/seshu362/popx-app.git
 cd popx-app
 
 # Install dependencies
